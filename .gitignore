@@ -3,3 +3,9 @@ __pycache__/
 .ipynb_checkpoints/
 .env
 *.csv
+# Raw and processed data
+data/raw/
+data/processed/
+
+# Serialized models
+*.pkl
