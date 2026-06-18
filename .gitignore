@@ -1,7 +1,9 @@
 venv/
+backend/venv/
 __pycache__/
 .ipynb_checkpoints/
 .env
+backend/.env
 *.csv
 # Raw and processed data
 data/raw/
