@@ -8,6 +8,10 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 
 MODEL_PATH = BASE_DIR / "ml" / "best_model.pkl"
 PREPROCESSOR_PATH = BASE_DIR / "ml" / "preprocessor.pkl"
+print("MODEL PATH:", MODEL_PATH)
+print("PREPROCESSOR PATH:", PREPROCESSOR_PATH)
+
+
 
 
 model = joblib.load(MODEL_PATH)
